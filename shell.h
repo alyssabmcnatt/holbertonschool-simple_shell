@@ -9,7 +9,6 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 #include <limits.h>
-#include <fcnt1.h>
 #include <errno.h>
 
 /* for read/write buffers */
