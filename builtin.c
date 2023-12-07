@@ -38,7 +38,7 @@ int _myexit(info_t *info)
 /*
  * _mycd - changes the current directory of the process
  * @info: structure containing potential arguments.
- * used to maintain constant function prototype
+ * desrciption: used to maintain constant function prototype
  * Return: always 0
  */
 
