@@ -15,7 +15,7 @@ void remove_comments(char *buf);
 int _erratoi(char *s)
 {
 	int i = 0;
-	usnigned long int result = 0;
+	unsigned long int result = 0;
 
 	if (*s == '+')
 		s++; /* TODO: why does this make retunr 255? */
