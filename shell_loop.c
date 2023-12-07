@@ -78,7 +78,7 @@ int find_builtin(info_t *info)
 			built_in_ret = builtintbl[i].func(info);
 			break;
 		}
-	return (built_in_ret)
+	return (built_in_ret);
 }
 
 /**
@@ -144,7 +144,7 @@ void fork_cmd(info_t *info)
 	{
 		if (execve(info->path, info->argv, get_environ(info)) == -1)
 		{
-			free-info(info, 1);
+			free->info(info, 1);
 			if (errno == EACCES)
 				exit(126);
 			exit(1);
