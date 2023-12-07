@@ -34,7 +34,7 @@
 #define HIST_FILE ".simple_shell_history"
 #define HIST_MAX 4096
 
-extern char ** environ;
+extern char **environ;
 
 /**
  * struct liststr - singly linked list
@@ -67,7 +67,7 @@ typedef struct liststr
  * @env_changed: on if environ was changed
  * @status: the return status of the last exec'd command
  * @cmd_buf: address of pointer to cmd_buf, on if chaining
- * @cmd_buf_type:CMD_type ||, &&, ;
+ * @cmd_buf_type: CMD_type ||, &&, ;
  * @readfd: the fd from which to read line input
  * @histcount: the history line number count
  */
